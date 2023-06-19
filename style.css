@@ -1,0 +1,42 @@
+body{
+    background-color:aquamarine;
+}
+.presentation-container {
+    align-items: center;
+    color:#FF0000;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+
+  }
+
+  .slide {
+    display: none;
+    text-align: center;
+  
+  }
+  
+  .slide.active {
+    display: block;
+  }
+  
+  .navigation {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button:disabled {
+    background-color: #CCC;
+    cursor: not-allowed;
+  }
+  
